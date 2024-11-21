@@ -1,12 +1,10 @@
-package sol;
-import java.io.*;
+package sol.step6;
+
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 import java.util.Scanner;
 
-
-public class Main {
+public class ex2562 {
     public static void main(String[] args){
 
         Scanner sc = new Scanner(System.in);
