@@ -1,9 +1,8 @@
-package sol;
+package sol.bronze5;
+
 import java.io.*;
-import java.util.StringTokenizer;
 
-
-public class Main {
+public class ex2744 {
     public static void main(String[] args)  {
 
         try {
@@ -12,11 +11,11 @@ public class Main {
             String A = br.readLine();
             for(int i=0;i<A.length();i++){
                 char B = A.charAt(i);
-               if(Character.isUpperCase(B)){
-                   System.out.print(Character.toLowerCase(B));
-               }else{
-                   System.out.print(Character.toUpperCase(B));
-               }
+                if(Character.isUpperCase(B)){
+                    System.out.print(Character.toLowerCase(B));
+                }else{
+                    System.out.print(Character.toUpperCase(B));
+                }
             }
 
 
