@@ -1,31 +1,31 @@
 package sol;
 import java.io.*;
-import java.util.StringTokenizer;
+import java.math.BigInteger;
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Date;
+import java.util.Scanner;
 
 
 public class Main {
-    public static void main(String[] args)  {
-
-        try {
-            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-            BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-            String A = br.readLine();
-            for(int i=0;i<A.length();i++){
-                char B = A.charAt(i);
-               if(Character.isUpperCase(B)){
-                   System.out.print(Character.toLowerCase(B));
-               }else{
-                   System.out.print(Character.toUpperCase(B));
-               }
-            }
-
-
-
-        } catch (IOException e) {
-            e.printStackTrace();
-            System.out.println("문제가 발생했습니다.");
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int input = sc.nextInt();
+        String input2 = sc.next();
+        char[] arr  = new char[input2.length()];
+        int sum=0;
+        for(int i=0;i<arr.length;i++){
+            char ch = input2.charAt(i);
+            arr[i] = ch;
         }
+        for(int i=0;i<arr.length;i++){
 
+            sum+=Character.getNumericValue(i);
+            System.out.println(sum);
+        }
+        System.out.println(sum);
 
     }
 }
+
