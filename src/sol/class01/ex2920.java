@@ -1,8 +1,8 @@
-package sol;
-import java.util.*;
+package sol.class01;
 
+import java.util.Scanner;
 
-public class Main {
+public class ex2920 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] arr = new int[8];
@@ -23,4 +23,3 @@ public class Main {
         System.out.println(result);
     }
 }
-
