@@ -1,9 +1,9 @@
-package sol;
-import javax.print.attribute.standard.Sides;
-import java.util.*;
+package sol.class02;
 
+import java.util.Arrays;
+import java.util.Scanner;
 
-public class Main {
+public class ex4153 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         while (true){
@@ -27,4 +27,3 @@ public class Main {
         }
     }
 }
-
