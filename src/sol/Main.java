@@ -1,30 +1,20 @@
 package sol;
 import javax.print.attribute.standard.Sides;
+import java.awt.*;
+import java.awt.print.Pageable;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.math.BigInteger;
 import java.util.*;
+import java.util.concurrent.TimeUnit;
 
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
-        while (true){
-            int A = sc.nextInt();
-            int B = sc.nextInt();
-            int C = sc.nextInt();
-            if(A==0&&B==0&&C==0){
-                sc.close();
-                break;
-            }
-            int[] tri ={A,B,C};
-            Arrays.sort(tri);
-            A = tri[0];
-            B = tri[1];
-            C = tri[2];
-            if((A*A)+(B*B)==(C*C)){
-                System.out.println("right");
-            }
-            else
-                System.out.println("wrong");
-        }
+        int n = sc.nextInt();
+
     }
 }
 
